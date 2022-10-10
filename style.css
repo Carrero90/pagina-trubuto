@@ -1,0 +1,122 @@
+#main{
+    background-color: #512b1c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 10px;
+}
+
+#title {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5px ;
+    
+}
+
+#main p {
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0px 0px 70px 0px;
+
+}
+
+#main p span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+#img-div {
+    background-color: #9b6b43;
+    padding: 40px 50px;
+    max-width: 70vw;
+    height: auto;
+    margin: auto;
+}
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+        
+}
+
+#tribute-info {
+    max-width: 60vw;
+    margin: 50px auto;
+    color: white;
+    font-size: 1.3rem;
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+#tribute-info p {
+    color: #9b6b43;
+}
+
+#tribute-info p a{
+    color: #9b6b43;
+  
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #512b1c;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+
+
+@media (min-width: 680px) {
+    #imagenes {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        gap: 20px;
+    }
+
+    .imagenes_1 #image:last-child{
+        margin-bottom: 0;
+    }
+
+    .imagenes_1 {
+        display: grid;
+        align-items: stretch;
+        
+    }
+
+    .imagenes_2{
+        display: grid;
+        align-items:stretch;
+    }
+    
+    .imagenes_2 #image:last-child{
+        margin-bottom: 0;
+        
+    }
+
+    #img-caption {
+        font-size: 1.1rem;
+        margin-top: 20px;
+        
+    }
+
+   
+}
+
